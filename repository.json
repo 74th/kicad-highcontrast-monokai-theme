@@ -1,0 +1,22 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository",
+    "maintainer": {
+        "contact": {
+            "web": "https://github.com/74th/kicad-highcontrast-monokai-theme/"
+        },
+        "name": "Atsushi Morimoto (@74th)"
+    },
+    "name": "kicad high contrast monokai schema by @74th",
+    "packages": {
+        "sha256": "ee9ce34aa4f8bdf994184bbd6474636343e767c356978c827cb9a9f73dadde22",
+        "update_time_utc": "2021-12-31 02:00:32",
+        "update_timestamp": 1640916032,
+        "url": "https://raw.githubusercontent.com/74th/kicad-highcontrast-monokai-theme/master/packages.json"
+    },
+    "resources": {
+        "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+        "update_time_utc": "2021-12-31 02:00:32",
+        "update_timestamp": 1640916032,
+        "url": "https://raw.githubusercontent.com/74th/kicad-highcontrast-monokai-theme/master/resources.zip"
+    }
+}

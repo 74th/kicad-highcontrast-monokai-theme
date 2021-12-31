@@ -1,0 +1,31 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "Monokai High Contrast",
+  "description": "Designed by #74th",
+  "description_full": "Designed by #74th",
+  "identifier": "com.github.74th.kicad-highcontrast-monokai-theme.monokai-high-contrast",
+  "type": "colortheme",
+  "author": {
+    "name": "Atsushi Morimoto (@74th)",
+    "contact": {
+      "web": "https://github.com/74th"
+    }
+  },
+  "maintainer": {
+    "name": "Atsushi Morimoto (@74th)",
+    "contact": {
+      "web": "https://github.com/74th/kicad-highcontrast-monokai-theme"
+    }
+  },
+  "license": "MIT",
+  "resources": {
+    "Github": "https://github.com/74th/kicad-highcontrast-monokai-theme"
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "status": "stable",
+      "kicad_version": "6.00"
+    }
+  ]
+}

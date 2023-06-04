@@ -3,8 +3,8 @@
         {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
             "name": "Monokai High Contrast",
-            "description": "Designed by @74th",
-            "description_full": "Designed by @74th",
+            "description": "high contrast monokai theme designed by @74th",
+            "description_full": "high contrast monokai theme designed by @74th",
             "identifier": "com.github.74th.kicad-highcontrast-monokai-theme.monokai-high-contrast",
             "type": "colortheme",
             "author": {
@@ -28,10 +28,10 @@
                     "version": "1.0.1",
                     "status": "stable",
                     "kicad_version": "6.00",
-                    "download_sha256": "d6e6451a634ecc93f4d2471cd50908ced543ea93069b47e244f7e6e914627171",
-                    "download_size": 12575,
+                    "download_sha256": "a631d510e3ec69d5076c8d105695ae88099b3d16e1f5bf88b00002d1311b7f86",
+                    "download_size": 12585,
                     "download_url": "https://github.com/74th/kicad-highcontrast-monokai-theme/releases/download/v1.0.1/com.github.74th.kicad-highcontrast-monokai-theme.monokai-high-contrast_v1.0.1_pcm.zip",
-                    "install_size": 20867
+                    "install_size": 20923
                 }
             ]
         }

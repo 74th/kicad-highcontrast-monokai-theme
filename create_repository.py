@@ -225,7 +225,7 @@ def write_resources_zip():
 
             identifier = metadata_json["identifier"]
 
-            zip.write(icon_path, f"{identifier}/v{VERSION}/{ICON_FILENAME}")
+            zip.write(icon_path, f"{identifier}/{ICON_FILENAME}")
 
 
 def write_repository_json():

@@ -186,7 +186,7 @@
   ],
   "schematic": {
     "anchor": "rgb(252, 252, 252)",
-    "aux_items": "rgb(0, 0, 0)",
+    "aux_items": "rgb(84, 84, 84)",
     "background": "rgb(0, 0, 0)",
     "brightened": "rgb(204, 204, 204)",
     "bus": "rgb(166, 226, 46)",

@@ -134,7 +134,7 @@ METADATA_FILEAME = "metadata.json"
 ICON_FILENAME = "icon.png"
 
 REPOSITORY_BASE_URI = "https://github.com/74th/kicad-highcontrast-monokai-theme/releases/download"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 READ_SIZE = 65536
 

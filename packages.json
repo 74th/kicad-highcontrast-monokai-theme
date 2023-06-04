@@ -25,13 +25,13 @@
             },
             "versions": [
                 {
-                    "version": "1.0.0",
+                    "version": "1.0.1",
                     "status": "stable",
                     "kicad_version": "6.00",
-                    "download_sha256": "cd90ee9856b3ec77a36f7e716e4ba3a6a60335e9016f52f967943d0e101215b5",
+                    "download_sha256": "d6e6451a634ecc93f4d2471cd50908ced543ea93069b47e244f7e6e914627171",
                     "download_size": 12575,
-                    "download_url": "https://github.com/74th/kicad-highcontrast-monokai-theme/releases/download/v1.0.0/com.github.74th.kicad-highcontrast-monokai-theme.monokai-high-contrast_v1.0.0_pcm.zip",
-                    "install_size": 20864
+                    "download_url": "https://github.com/74th/kicad-highcontrast-monokai-theme/releases/download/v1.0.1/com.github.74th.kicad-highcontrast-monokai-theme.monokai-high-contrast_v1.0.1_pcm.zip",
+                    "install_size": 20867
                 }
             ]
         }

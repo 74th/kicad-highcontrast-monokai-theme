@@ -8,9 +8,9 @@
   },
   "name": "kicad high contrast monokai schema by @74th",
   "packages": {
-    "sha256": "ee9ce34aa4f8bdf994184bbd6474636343e767c356978c827cb9a9f73dadde22",
-    "update_time_utc": "2021-12-31 02:20:47",
-    "update_timestamp": 1640917247,
+    "sha256": "ce25c363059bef9d8eaabc791442d2428c571344992835d83ce7173727c5bda9",
+    "update_time_utc": "2023-06-04 02:49:05",
+    "update_timestamp": 1685846945,
     "url": "https://github.com/74th/kicad-highcontrast-monokai-theme/releases/download/v1.0.0/packages.json"
   },
   "resources": {

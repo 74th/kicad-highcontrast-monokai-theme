@@ -21,3 +21,8 @@ https://raw.githubusercontent.com/74th/kicad-highcontrast-monokai-theme/main/rep
 7. Click "Apply Changes" and "Close".
 8. Open "Schematic Editor" or "PCB Editor" and open preference.
 9. Select "Color" row and change theme pulldown to "Monokai High Contrast".
+
+## License
+
+- create_repository.py: Creative Commons Zero v1.0 Universal (from https://github.com/pointhi/kicad-color-schemes/)
+- [monokai-high-contrast/](monokai-high-contrast/): MIT

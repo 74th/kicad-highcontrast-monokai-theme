@@ -1,8 +1,8 @@
 {
   "$schema": "https://go.kicad.org/pcm/schemas/v1",
   "name": "Monokai High Contrast",
-  "description": "Designed by #74th",
-  "description_full": "Designed by #74th",
+  "description": "Designed by @74th",
+  "description_full": "Designed by @74th",
   "identifier": "com.github.74th.kicad-highcontrast-monokai-theme.monokai-high-contrast",
   "type": "colortheme",
   "author": {
@@ -23,7 +23,7 @@
   },
   "versions": [
     {
-      "version": "1.0",
+      "version": "1.0.0",
       "status": "stable",
       "kicad_version": "6.00"
     }

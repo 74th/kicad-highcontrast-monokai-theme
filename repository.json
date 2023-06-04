@@ -1,22 +1,22 @@
 {
-  "$schema": "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository",
-  "maintainer": {
-    "contact": {
-      "web": "https://github.com/74th/kicad-highcontrast-monokai-theme/"
+    "$schema": "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository",
+    "maintainer": {
+        "contact": {
+            "web": "https://github.com/74th/kicad-highcontrast-monokai-theme/"
+        },
+        "name": "Atsushi Morimoto (@74th)"
     },
-    "name": "Atsushi Morimoto (@74th)"
-  },
-  "name": "kicad high contrast monokai schema by @74th",
-  "packages": {
-    "sha256": "aaaccb452b2a3cfcf4e171f9e3d804c122a49507e392d326eee04391e1c1f018",
-    "update_time_utc": "2023-06-04 03:06:57",
-    "update_timestamp": 1685848017,
-    "url": "https://github.com/74th/kicad-highcontrast-monokai-theme/releases/download/v1.0.0/packages.json"
-  },
-  "resources": {
-    "sha256": "7012f628b8a6a0d18f0a72de1bb7eee6f6370a026abcbd47f358a71620ea4ea6",
-    "update_time_utc": "2021-12-31 02:20:54",
-    "update_timestamp": 1640917254,
-    "url": "https://github.com/74th/kicad-highcontrast-monokai-theme/releases/download/v1.0.0/resources.zip"
-  }
+    "name": "kicad high contrast monokai schema by @74th",
+    "packages": {
+        "sha256": "b55ae4f3a697512f6a3a23b2d4dc0c17aea50c35a25336cf23f8faa36e1d0dcd",
+        "update_time_utc": "2023-06-04 03:12:51",
+        "update_timestamp": 1685848371,
+        "url": "https://raw.githubusercontent.com/74th/kicad-highcontrast-monokai-theme/master/packages.json"
+    },
+    "resources": {
+        "sha256": "24e802ed9a9d631e254220c7962f92886242eb20b04f02fb4c3f7ab78e14fce7",
+        "update_time_utc": "2023-06-04 03:12:51",
+        "update_timestamp": 1685848371,
+        "url": "https://raw.githubusercontent.com/74th/kicad-highcontrast-monokai-theme/master/resources.zip"
+    }
 }

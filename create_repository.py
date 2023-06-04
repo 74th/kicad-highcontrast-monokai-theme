@@ -133,7 +133,8 @@ REPOSITORY_JSON_PATH = ROOT_PATH / "repository.json"
 METADATA_FILEAME = "metadata.json"
 ICON_FILENAME = "icon.png"
 
-REPOSITORY_BASE_URI = "https://raw.githubusercontent.com/74th/kicad-highcontrast-monokai-theme/master"
+REPOSITORY_BASE_URI = "https://github.com/74th/kicad-highcontrast-monokai-theme/releases/download"
+VERSION = "1.0.0"
 
 READ_SIZE = 65536
 
@@ -196,7 +197,7 @@ def create_and_get_pcm(path):
         # fill in package data
         metadata_version['download_sha256'] = sha256_of_file(pkg_path)
         metadata_version['download_size'] = pkg_path.stat().st_size
-        metadata_version['download_url'] = f"{REPOSITORY_BASE_URI}/{path.name}/{pkg_name}"
+        metadata_version['download_url'] = f"{REPOSITORY_BASE_URI}/v{version}/{pkg_name}"
         metadata_version['install_size'] = install_size_of_zip(pkg_path)
 
     return metadata_json
@@ -207,7 +208,6 @@ def write_packages_json(package_array):
 
     with PACKAGES_JSON_PATH.open("w", encoding="utf-8") as f:
         json.dump(packages_data, f, indent=4)
-
 
 def write_resources_zip():
     with ZipFile(RESOURCES_PATH, 'w', compression=zipfile.ZIP_DEFLATED) as zip:
@@ -225,7 +225,7 @@ def write_resources_zip():
 
             identifier = metadata_json["identifier"]
 
-            zip.write(icon_path, f"{identifier}/{ICON_FILENAME}")
+            zip.write(icon_path, f"{identifier}/v{VERSION}/{ICON_FILENAME}")
 
 
 def write_repository_json():
@@ -246,7 +246,7 @@ def write_repository_json():
             "sha256": packages_json_sha256,
             "update_time_utc": packages_json_update_time_utc.strftime("%Y-%m-%d %H:%M:%S"),
             "update_timestamp": packages_json_update_timestamp,
-            "url": f"{REPOSITORY_BASE_URI}/packages.json"
+            "url": f"{REPOSITORY_BASE_URI}/v{VERSION}/packages.json"
         }
     }
 
@@ -258,7 +258,7 @@ def write_repository_json():
             "sha256": resources_sha256,
             "update_time_utc": resources_update_time_utc.strftime("%Y-%m-%d %H:%M:%S"),
             "update_timestamp": resources_update_timestamp,
-            "url": f"{REPOSITORY_BASE_URI}/resources.zip"
+            "url": f"{REPOSITORY_BASE_URI}/v{VERSION}/resources.zip"
         }
 
     with REPOSITORY_JSON_PATH.open("w", encoding="utf-8") as f:

@@ -8,15 +8,15 @@
     },
     "name": "kicad high contrast monokai schema by @74th",
     "packages": {
-        "sha256": "b55ae4f3a697512f6a3a23b2d4dc0c17aea50c35a25336cf23f8faa36e1d0dcd",
-        "update_time_utc": "2023-06-04 03:12:51",
-        "update_timestamp": 1685848371,
-        "url": "https://raw.githubusercontent.com/74th/kicad-highcontrast-monokai-theme/master/packages.json"
+        "sha256": "1dfbf451df199de8e074310763525448140ea4d642832e9ebe7d6dabb7b63dd5",
+        "update_time_utc": "2023-06-04 03:26:42",
+        "update_timestamp": 1685849202,
+        "url": "https://github.com/74th/kicad-highcontrast-monokai-theme/releases/download/v1.0.0/packages.json"
     },
     "resources": {
-        "sha256": "24e802ed9a9d631e254220c7962f92886242eb20b04f02fb4c3f7ab78e14fce7",
-        "update_time_utc": "2023-06-04 03:12:51",
-        "update_timestamp": 1685848371,
-        "url": "https://raw.githubusercontent.com/74th/kicad-highcontrast-monokai-theme/master/resources.zip"
+        "sha256": "cdb9a7a988c6ca1a05712b8b306246f27db4e2cadf4d47d9eb4acc7fad4e437c",
+        "update_time_utc": "2023-06-04 03:26:42",
+        "update_timestamp": 1685849202,
+        "url": "https://github.com/74th/kicad-highcontrast-monokai-theme/releases/download/v1.0.0/resources.zip"
     }
 }
